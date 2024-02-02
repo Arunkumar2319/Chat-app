@@ -1,0 +1,102 @@
+.sidenav {
+    height: 100vh;
+    width: 80vw;
+    position: relative;
+    /* top: 50px; */
+    left: 0;
+    /* background-color: ghostwhite; */
+    /* overflow-x: hidden;
+    transition: 0.5s; */
+    /* padding-top: 60px; */
+}
+
+.card{
+    background-color: ghostwhite;
+    z-index: 999;
+    position: absolute;
+    height: 98vh;
+    width: 20vw;
+    
+}
+
+.app-header{
+    text-align: left;
+    margin-left: 10px;
+    /* color: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(104,45,253,1) 100%) ; */
+    color:  rgba(104,45,253,1);
+}
+
+.recent-chats{
+    text-align: left;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.chats{
+    width: auto;
+    height: 6vh;
+    display: flex;
+    /* background-color: aqua; */
+}
+
+.chats:hover{
+    background-color: bisque;
+}
+
+.chats_profile_img {
+    border-radius: 50%;
+    width: 30px;
+    height: 28px;
+    object-fit: cover;
+    margin-left: 7px;
+    margin-top: 8px;
+}
+
+.video-call-btn{
+    object-fit: cover;
+    margin-left: 7px;
+    margin-top: 16px;
+    position: absolute;
+    right: 10px;
+}
+
+/* .msg-btn{
+    position: absolute;
+    right: 41px;
+    margin-left: 7px;
+    margin-top: 16px;
+} */
+
+.chats-user-name{
+    position: relative;
+    margin-top: 13px;
+    margin-left: 10px;
+    font-size: 14px; 
+}
+
+.content{
+    display: flex;
+}
+
+.selected-chat{
+    text-align: left;
+}
+
+.msg-window{
+    /* background-color: aqua; */
+    width: 40vw;
+    margin-left: 25%;
+    padding-top: 60px;
+}
+
+.navbar{
+    width: 80vw;
+    height: 10vh;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(104,45,253,1) 100%);
+    margin-left: 12%;
+    position: absolute;
+}
+
+.try{
+    margin-left: 25%;
+}
